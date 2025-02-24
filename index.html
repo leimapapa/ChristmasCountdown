@@ -448,7 +448,9 @@
             });
         });
 
-        letItSnow();
+	document.addEventListener('DOMContentLoaded', () => {
+        	letItSnow();
+	});
 
         // refresh it if we leave the page
         window.addEventListener("visibilitychange", () => {
